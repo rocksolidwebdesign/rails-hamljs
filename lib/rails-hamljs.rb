@@ -1,4 +1,4 @@
-require 'hamljs/version'
+require 'rails-hamljs/version'
 require 'tilt'
 require 'sprockets'
 
