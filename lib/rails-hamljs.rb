@@ -50,4 +50,4 @@ module Hamljs
 
 end
 
-Sprockets.register_engine '.haml', Hamljs::Template
+Sprockets.register_engine '.hamljs', Hamljs::Template
