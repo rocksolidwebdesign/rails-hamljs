@@ -5,14 +5,15 @@ Lets you use https://github.com/uglyog/clientside-haml-js templates in the Rails
 No need to download haml.js, this gem includes the haml.js file for you.
 
 * Requires ExecJS
+* Requires CoffeeScript
 
-## Why another Haml-JS gem?
+## Why another Haml in JavaScript gem?
 
-Uglyog's library lets you use coffeescript, which allows the embedded JavaScript in your Haml templates to be much more beautiful and Ruby-like.
+Uglyog's library lets you use coffeescript, which allows the embedded JavaScript in your Haml templates to be much more beautiful and Ruby-like. While I'm not the biggest fan of coffeescript for actual javascript coding, it's the perfect solution for haml templates.
 
 The other gems use creationix's library.
 
-This gem actually hooks in to the asset pipeline to give you precompiled haml templates which are actually blazing fast for the user.
+The gem hooks in to the asset pipeline to give you precompiled haml templates which are actually blazing fast for the user and should be perfectly compatible with production environments.
 
 ## Installation
 
