@@ -8,7 +8,7 @@ No need to download haml.js, this gem includes the haml.js file for you.
 
 ## Why another Haml-JS gem?
 
-Uglylog's library lets you use coffeescript, which allows the embedded JavaScript in your Haml templates to be much more beautiful and Ruby-like.
+Uglyog's library lets you use coffeescript, which allows the embedded JavaScript in your Haml templates to be much more beautiful and Ruby-like.
 
 The other gems use creationix's library.
 
@@ -40,3 +40,10 @@ Then, as with other JST templates such as ECO and EJS, you may access your templ
       someVar: "someValue",
       someOtherVar: "someOtherVal"
     });
+
+## TODO
+
+Configuration:
+
+  Toggle whose library to use (creationix or uglyog)
+  Toggle coffeescript (if using uglyog's library)
